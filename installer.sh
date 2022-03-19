@@ -3,7 +3,7 @@ if [ $(id -u) -ne 0 ]; then
 	echo "This script must be ran as root"
 	exit 1
 fi
-
+echo "ABDULREHMAN"
 # For upgrades and sanity check, remove any existing i2p.list file
 rm -f /etc/apt/sources.list.d/i2p.list
 
